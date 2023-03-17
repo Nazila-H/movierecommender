@@ -1,7 +1,7 @@
 h1{color:aqua;
 font-size:50px}
 
- body{
+body{
     width:80%;
     margin:auto;
     padding:30px;
@@ -30,7 +30,7 @@ transition: all 3s;}
 button:hover{color: brown;}
 
 input[type=number]{width:80px}
-/*
+
 ul{
     display: inline-block;
     text-align: left;
@@ -38,11 +38,10 @@ ul{
 
 .movies li{padding: 10px;} /*class selector*/
 
+.movies li:nth-child(odd){background-color: grey;}  /*:nth-child() is pseudo selector*/
+.movies li:nth-child(even){background-color: white;}
 
-/* .movies li:nth-child(odd){background-color: grey;}  :nth-child() is pseudo selector */
-/* .movies li:nth-child(even){background-color: white;} */
-
-/* a{color: darkblue;
+a{color: darkblue;
 transition: all 3s;
 font-size: 20px;
 font-style: italic;}
@@ -59,6 +58,6 @@ img:hover{
     transform: rotate(5deg) scale(1.2);}
 
 
-/* p,h2{color: aqua;
-font-size: 20px;} */ 
+p,h2{color: aqua;
+font-size: 20px;}
 
